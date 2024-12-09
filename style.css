@@ -2,9 +2,9 @@
 
 body {
   background: #7ccee7;
-  background-image: url("./images/Spain-l.gif");
+  background-image: url("./images/depositphotos_544386412-stock-illustration-spain-flag-wooden-background-vector.jpg");
   background-size: cover;
-  color: #575F7D;
+  color: #000000;
   font-family: 'Lora', serif;
   font-size: 17px;
   font-weight: lighter;
@@ -22,17 +22,20 @@ user agent stylesheet div {
 
 .img-circle {
   border-radius: 50%;
+  border-color: black;
+  border-width: 5px;
 }
 
 .btn-blue {
-  background-color: hsl(271, 80%, 44%);
-  color: white;
+  background-color: rgb(234, 234, 10);
+  color: rgb(10, 10, 10);
   padding: 15px 20px;
   border-radius: 4px;
+  text-decoration: none;
 }
 
 .card-white {
-  background-color: white;
+  background-color: rgb(242, 8, 8);
   padding: 20px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
@@ -41,20 +44,10 @@ user agent stylesheet div {
 }
 
 .card {
-  background-color: white;
+  background-color: rgb(234, 234, 10);
   padding: 20px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
-}
-
-
-a {
-  color: red;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }
